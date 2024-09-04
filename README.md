@@ -1,5 +1,5 @@
 # perlsh
-<pre>
+```
 A simple perl shell wrapper that helps integrate perl code into the existing native shell
 Note: This is toy test code but may be expanded upon.
 
@@ -151,8 +151,7 @@ sub test{
 hi me
 >
 
-
-</pre>
+```
 
 
 
