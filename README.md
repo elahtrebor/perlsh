@@ -7,10 +7,12 @@ This shell has a very simple rule set:
  1. read data while in a loop from the user
  2. If the input starts with a perl keyword then EVAL the statement.
  3. if the input starts with the PERL function '&' sign then Execute the function.
- 4. If the input starts with a PERL TAG IE: <PERL> then keep buffering the input until </PERL> end tag is reached and then eval the input as a block of code.
+ 4. If the input starts with a PERL TAG IE: <PERL> then keep buffering the input until </PERL> end tag
+    is reached and then eval the input as a block of code.
  5. Otherwise if doesnt match PERL syntax then treat the statement as a SHELL statement and run SYSTEM.
 
-It also allows saving the output of the last evaled statement to file and setting SHELL environmental variables.
+It also allows saving the output of the last evaled statement to file
+   and setting SHELL environmental variables.
 
 Its best to use rlwrap -c ./perlsh.pl  to get tab completion and command line history.
 Example test drive:
